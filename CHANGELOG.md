@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0-alpha.0](https://github.com/comadaihiep92/schedule-x/compare/v1.32.0...v1.33.0-alpha.0) (2024-04-16)
+
+### Bug Fixes
+
+- event recurrence update fn ([#358](https://github.com/comadaihiep92/schedule-x/issues/358)) ([b229acb](https://github.com/comadaihiep92/schedule-x/commit/b229acb75b7a6957923559f51c68e06b6fe274fc))
+
+### Features
+
+- **add new class name for date:** added new class name for previos and next day of month ([2100b57](https://github.com/comadaihiep92/schedule-x/commit/2100b57f2bbbe02d416789ac69d10ff069a0caf1))
+- **add new class name for date:** added new class name for previos and next day of month ([85b48f9](https://github.com/comadaihiep92/schedule-x/commit/85b48f9a4c0c8c80d4aa6cda3e92057aeb8633c1))
+
 # [1.32.0](https://github.com/schedule-x/schedule-x/compare/v1.31.0...v1.32.0) (2024-04-15)
 
 ### Features
