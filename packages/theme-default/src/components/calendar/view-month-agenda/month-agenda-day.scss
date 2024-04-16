@@ -25,3 +25,7 @@
   width: $icon-size;
   border-radius: 50%;
 }
+
+.sx__is-leading-date, .sx__is-trailing-date {
+  visibility: hidden;
+}
