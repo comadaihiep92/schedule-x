@@ -28,6 +28,7 @@ type DateTimeVariables = {
 export const toIntegers = (
   dateTimeSpecification: string
 ): DateTimeVariables => {
+  console.log('dateTimeSpecification ->', dateTimeSpecification)
   const hours = dateTimeSpecification.slice(11, 13),
     minutes = dateTimeSpecification.slice(14, 16)
 

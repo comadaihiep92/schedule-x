@@ -71,13 +71,14 @@ export default function CalendarWrapper({ $app }: props) {
     setPreviousRangeStart($app.calendarState.range.value?.start || '')
   }, [$app.calendarState.range.value])
 
+  console.log('app ->', $app)
+
   return (
     <>
       <div className={wrapperClasses.join(' ')} id={calendarId}>
         <div className={'sx__calendar'}>
           <AppContext.Provider value={$app}>
             <CalendarHeader />
-
             <div
               className={['sx__view-container', transitionClass].join(' ')}
               id={viewContainerId}

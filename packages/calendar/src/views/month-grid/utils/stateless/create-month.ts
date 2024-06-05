@@ -13,6 +13,12 @@ const createWeekForMonth = (week: MonthWeek, day: Date) => {
 }
 
 export const createMonth = (date: string, timeUnitsImpl: TimeUnits) => {
+  console.log(
+    '🚀 ~ createMonth ~ date:',
+    date,
+    'timeUnitsImpl ->',
+    timeUnitsImpl
+  )
   const { year, month: monthFromDate } = toIntegers(date)
   const monthWithDates = timeUnitsImpl.getMonthWithTrailingAndLeadingDays(
     year,

@@ -24,6 +24,11 @@ export const createWeek = ($app: CalendarAppSingleton) => {
     )
 
   // Week mode
+  console.log(
+    '$app.timeUnitsImpl ->',
+    $app.timeUnitsImpl,
+    $app.calendarState.range.value
+  )
   return $app.timeUnitsImpl
     .getWeekFor(toJSDate(($app.calendarState.range.value as DateRange).start))
     .reduce(createOneDay, {} as Week)
